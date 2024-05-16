@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Guess the Tool</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Which tool is this from?</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            
+        </div>
+        <div class="col-6">
+            <pre>
+                <div id="tool_desc"></div>
+            </pre>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="row text-center">
+                    <button class="btn btn-primary" onclick="window.location.reload();">Restart</button>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+    
+    <div class="row text-center mt-5" id="proposition_buttons">
+        
+    </div>
+    <div class="row text-center"><h2><div id="result"></div></h2></div>
+    <script src="main.js"></script>
+</body>
+</html>
