@@ -1,11 +1,10 @@
-GNU Wget 1.24.5, a non-interactive network retriever.
-Usage: wget [OPTION]... [URL]...
+Usage: <name of the tool> [OPTION]... [URL]...
 Mandatory arguments to long options are mandatory for short options too.
 Startup:
-  -V,  --version                   display the version of Wget and exit
+  -V,  --version                   display the version of <name of the tool> and exit
   -h,  --help                      print this help
   -b,  --background                go to background after startup
-  -e,  --execute=COMMAND           execute a `.wgetrc'-style command
+  -e,  --execute=COMMAND           execute a `.<name of the tool>rc'-style command
 Logging and input file:
   -o,  --output-file=FILE          log messages to FILE
   -a,  --append-output=FILE        append messages to FILE
@@ -68,7 +67,7 @@ Download:
        --ask-password              prompt for passwords
        --use-askpass=COMMAND       specify credential handler for requesting 
                                      username and password.  If no COMMAND is 
-                                     specified the WGET_ASKPASS or the SSH_ASKPASS 
+                                     specified the <name of the tool>_ASKPASS or the SSH_ASKPASS 
                                      environment variable is used.
        --no-iri                    turn off IRI support
        --local-encoding=ENC        use ENC as the local encoding for IRIs
@@ -97,7 +96,7 @@ HTTP options:
        --proxy-password=PASS       set PASS as proxy password
        --referer=URL               include 'Referer: URL' header in HTTP request
        --save-headers              save the HTTP headers to file
-  -U,  --user-agent=AGENT          identify as AGENT instead of Wget/VERSION
+  -U,  --user-agent=AGENT          identify as AGENT instead of <name of the tool>/VERSION
        --no-http-keep-alive        disable HTTP keep-alive (persistent connections)
        --no-cookies                don't use cookies
        --load-cookies=FILE         load cookies from FILE before session
@@ -192,5 +191,5 @@ Recursive accept/reject:
                                      URL's last component
   -X,  --exclude-directories=LIST  list of excluded directories
   -np, --no-parent                 don't ascend to the parent directory
-Email bug reports, questions, discussions to <bug-wget@gnu.org>
-and/or open issues at https://savannah.gnu.org/bugs/?func=additem&group=wget.
+Email bug reports, questions, discussions to <bug-<name of the tool>@gnu.org>
+and/or open issues at https://savannah.gnu.org/bugs/?func=additem&group=<name of the tool>.

@@ -1,4 +1,3 @@
-Usage: msfconsole [options]
 Common options:
     -E, --environment ENVIRONMENT    Set Rails environment, defaults to RAIL_ENV environment variable or 'production'
 Database options:

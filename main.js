@@ -15,7 +15,8 @@ const tool_names = [
     "vim",
     "wget",
     "curl",
-    "git"
+    "git",
+    "openvpn"
 ];
 
 function get_tool_help(){

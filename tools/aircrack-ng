@@ -1,6 +1,6 @@
-  Aircrack-ng 1.7  - (C) 2006-2022 Thomas d'Otreppe
-  https://www.aircrack-ng.org
-  usage: aircrack-ng [options] <input file(s)>
+  <name of the tool> 1.7  - (C) 2006-2022 Thomas d'Otreppe
+  https://www.<name of the tool>.org
+  usage: <name of the tool> [options] <input file(s)>
   Common options:
       -a <amode> : force attack mode (1/WEP, 2/WPA-PSK)
       -e <essid> : target selection: network identifier

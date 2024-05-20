@@ -1,8 +1,8 @@
-Nmap 7.95SVN ( https://nmap.org )
-Usage: nmap [Scan Type(s)] [Options] {target specification}
+<name of the tool> 7.95SVN ( https://<name of the tool>.org )
+Usage: <name of the tool> [Scan Type(s)] [Options] {target specification}
 TARGET SPECIFICATION:
   Can pass hostnames, IP addresses, networks, etc.
-  Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
+  Ex: scanme.<name of the tool>.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
   -iL <inputfilename>: Input from list of hosts/networks
   -iR <num hosts>: Choose random targets
   --exclude <host1[,host2][,host3],...>: Exclude hosts/networks
@@ -97,19 +97,19 @@ OUTPUT:
   --resume <filename>: Resume an aborted scan
   --noninteractive: Disable runtime interactions via keyboard
   --stylesheet <path/URL>: XSL stylesheet to transform XML output to HTML
-  --webxml: Reference stylesheet from Nmap.Org for more portable XML
+  --webxml: Reference stylesheet from <name of the tool>.Org for more portable XML
   --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
 MISC:
   -6: Enable IPv6 scanning
   -A: Enable OS detection, version detection, script scanning, and traceroute
-  --datadir <dirname>: Specify custom Nmap data file location
+  --datadir <dirname>: Specify custom <name of the tool> data file location
   --send-eth/--send-ip: Send using raw ethernet frames or IP packets
   --privileged: Assume that the user is fully privileged
   --unprivileged: Assume the user lacks raw socket privileges
   -V: Print version number
   -h: Print this help summary page.
 EXAMPLES:
-  nmap -v -A scanme.nmap.org
-  nmap -v -sn 192.168.0.0/16 10.0.0.0/8
-  nmap -v -iR 10000 -Pn -p 80
-SEE THE MAN PAGE (https://nmap.org/book/man.html) FOR MORE OPTIONS AND EXAMPLES
+  <name of the tool> -v -A scanme.<name of the tool>.org
+  <name of the tool> -v -sn 192.168.0.0/16 10.0.0.0/8
+  <name of the tool> -v -iR 10000 -Pn -p 80
+SEE THE MAN PAGE (https://<name of the tool>.org/book/man.html) FOR MORE OPTIONS AND EXAMPLES

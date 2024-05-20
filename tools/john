@@ -1,7 +1,7 @@
-John the Ripper password cracker, version 1.9.0
+<name of the tool> the Ripper password cracker, version 1.9.0
 Copyright (c) 1996-2019 by Solar Designer
-Homepage: http://www.openwall.com/john/
-Usage: john [OPTIONS] [PASSWORD-FILES]
+Homepage: http://www.openwall.com/<name of the tool>/
+Usage: <name of the tool> [OPTIONS] [PASSWORD-FILES]
 --single                   "single crack" mode
 --wordlist=FILE --stdin    wordlist mode, read words from FILE or stdin
 --rules                    enable word mangling rules for wordlist mode

@@ -1,18 +1,17 @@
-VIM - Vi IMproved 9.0 (2022 Jun 28, compiled Aug  5 2023 07:08:40)
-Usage: vim [arguments] [file ..]       edit specified file(s)
-   or: vim [arguments] -               read text from stdin
-   or: vim [arguments] -t tag          edit file where tag is defined
-   or: vim [arguments] -q [errorfile]  edit file with first error
+Usage: <name of the tool> [arguments] [file ..]       edit specified file(s)
+   or: <name of the tool> [arguments] -               read text from stdin
+   or: <name of the tool> [arguments] -t tag          edit file where tag is defined
+   or: <name of the tool> [arguments] -q [errorfile]  edit file with first error
 Arguments:
    --			Only file names after this
-   -v			Vi mode (like "vi")
+   -v			Vi mode 
    -e			Ex mode (like "ex")
    -E			Improved Ex mode
    -s			Silent (batch) mode (only for "ex")
-   -d			Diff mode (like "vimdiff")
-   -y			Easy mode (like "evim", modeless)
+   -d			Diff mode 
+   -y			Easy mode 
    -R			Readonly mode (like "view")
-   -Z			Restricted mode (like "rvim")
+   -Z			Restricted mode 
    -m			Modifications (writing files) not allowed
    -M			Modifications in text not allowed
    -b			Binary mode
@@ -28,14 +27,14 @@ Arguments:
    -T <terminal>	Set terminal type to <terminal>
    --not-a-term		Skip warning for input/output not being a terminal
    --ttyfail		Exit if input or output is not a terminal
-   -u <vimrc>		Use <vimrc> instead of any .vimrc
+   -u <<name of the tool>rc>		Use <<name of the tool>rc> instead of any .<name of the tool>rc
    --noplugin		Don't load plugin scripts
    -p[N]		Open N tab pages (default: one for each file)
    -o[N]		Open N windows (default: one for each file)
    -O[N]		Like -o but split vertically
    +			Start at end of file
    +<lnum>		Start at line <lnum>
-   --cmd <command>	Execute <command> before loading any vimrc file
+   --cmd <command>	Execute <command> before loading any <name of the tool>rc file
    -c <command>		Execute <command> after loading the first file
    -S <session>		Source file <session> after loading the first file
    -s <scriptin>	Read Normal mode commands from file <scriptin>
@@ -44,7 +43,7 @@ Arguments:
    -x			Edit encrypted files
    --startuptime <file>	Write startup timing messages to <file>
    --log <file>		Start logging to <file> early
-   -i <viminfo>		Use <viminfo> instead of .viminfo
-   --clean		'nocompatible', Vim defaults, no plugins, no viminfo
+   -i <<name of the tool>info>		Use <<name of the tool>info> instead of .<name of the tool>info
+   --clean		'nocompatible', <name of the tool> defaults, no plugins, no <name of the tool>info
    -h  or  --help	Print Help (this message) and exit
    --version		Print version information and exit

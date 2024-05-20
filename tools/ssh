@@ -1,5 +1,4 @@
-ssh: illegal option -- -
-usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+usage: <name of the tool> [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
            [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
            [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
            [-i identity_file] [-J [user@]host[:port]] [-L address]

@@ -1,4 +1,4 @@
-Usage: curl [options...] <url>
+Usage: <name of the tool> [options...] <url>
  -d, --data <data>          HTTP POST data
  -f, --fail                 Fail fast with no output on HTTP errors
  -h, --help <category>      Get help for commands

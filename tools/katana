@@ -1,7 +1,7 @@
-Katana is a fast crawler focused on execution in automation
+<name of the tool> is a fast crawler focused on execution in automation
 pipelines offering both headless and non-headless crawling.
 Usage:
-  katana [flags]
+  <name of the tool> [flags]
 Flags:
 INPUT:
    -u, -list string[]  target url / list to crawl
@@ -20,7 +20,7 @@ CONFIGURATION:
    -retry int                    number of times to retry the request (default 1)
    -proxy string                 http/socks5 proxy to use
    -H, -headers string[]         custom header/cookie to include in all http request in header:value format (file)
-   -config string                path to the katana configuration file
+   -config string                path to the <name of the tool> configuration file
    -fc, -form-config string      path to custom form configuration file
    -flc, -field-config string    path to custom field configuration file
    -s, -strategy string          Visit strategy (depth-first, breadth-first) (default "depth-first")
@@ -32,7 +32,7 @@ DEBUG:
    -elog, -error-log string  file to write sent requests error log
 HEADLESS:
    -hl, -headless                    enable headless hybrid crawling (experimental)
-   -sc, -system-chrome               use local installed chrome browser instead of katana installed
+   -sc, -system-chrome               use local installed chrome browser instead of <name of the tool> installed
    -sb, -show-browser                show the browser on the screen with headless mode
    -ho, -headless-options string[]   start headless chrome with additional options
    -nos, -no-sandbox                 start headless chrome in --no-sandbox mode
@@ -63,8 +63,8 @@ RATE-LIMIT:
    -rl, -rate-limit int          maximum requests to send per second (default 150)
    -rlm, -rate-limit-minute int  maximum number of requests to send per minute
 UPDATE:
-   -up, -update                 update katana to latest version
-   -duc, -disable-update-check  disable automatic katana update check
+   -up, -update                 update <name of the tool> to latest version
+   -duc, -disable-update-check  disable automatic <name of the tool> update check
 OUTPUT:
    -o, -output string                file to write output to
    -sr, -store-response              store http requests/responses

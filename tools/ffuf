@@ -1,4 +1,3 @@
-Fuzz Faster U Fool - v1.5.0-dev
 HTTP OPTIONS:
   -H                  Header `"Name: Value"`, separated by colon. Multiple -H flags are accepted.
   -X                  HTTP method to use
@@ -72,12 +71,12 @@ OUTPUT OPTIONS:
 EXAMPLE USAGE:
   Fuzz file paths from wordlist.txt, match all responses but filter out those with content-size 42.
   Colored, verbose output.
-    ffuf -w wordlist.txt -u https://example.org/FUZZ -mc all -fs 42 -c -v
+    <name of the tool> -w wordlist.txt -u https://example.org/FUZZ -mc all -fs 42 -c -v
   Fuzz Host-header, match HTTP 200 responses.
-    ffuf -w hosts.txt -u https://example.org/ -H "Host: FUZZ" -mc 200
+    <name of the tool> -w hosts.txt -u https://example.org/ -H "Host: FUZZ" -mc 200
   Fuzz POST JSON data. Match all responses not containing text "error".
-    ffuf -w entries.txt -u https://example.org/ -X POST -H "Content-Type: application/json" \
+    <name of the tool> -w entries.txt -u https://example.org/ -X POST -H "Content-Type: application/json" \
       -d '{"name": "FUZZ", "anotherkey": "anothervalue"}' -fr "error"
   Fuzz multiple locations. Match only responses reflecting the value of "VAL" keyword. Colored.
-    ffuf -w params.txt:PARAM -w values.txt:VAL -u https://example.org/?PARAM=VAL -mr "VAL" -c
-  More information and examples: https://github.com/ffuf/ffuf
+    <name of the tool> -w params.txt:PARAM -w values.txt:VAL -u https://example.org/?PARAM=VAL -mr "VAL" -c
+  More information and examples: https://github.com/<name of the tool>/<name of the tool>

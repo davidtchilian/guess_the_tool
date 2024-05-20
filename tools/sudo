@@ -1,9 +1,9 @@
-sudo - execute a command as another user
-usage: sudo -h | -K | -k | -V
-usage: sudo -v [-ABkNnS] [-g group] [-h host] [-p prompt] [-u user]
-usage: sudo -l [-ABkNnS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command [arg ...]]
-usage: sudo [-ABbEHkNnPS] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] [VAR=value] [-i | -s] [command [arg ...]]
-usage: sudo -e [-ABkNnS] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] file ...
+<name of the tool> - execute a command as another user
+usage: <name of the tool> -h | -K | -k | -V
+usage: <name of the tool> -v [-ABkNnS] [-g group] [-h host] [-p prompt] [-u user]
+usage: <name of the tool> -l [-ABkNnS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command [arg ...]]
+usage: <name of the tool> [-ABbEHkNnPS] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] [VAR=value] [-i | -s] [command [arg ...]]
+usage: <name of the tool> -e [-ABkNnS] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] file ...
 Options:
   -A, --askpass                 use a helper program for password prompting
   -b, --background              run command in the background
