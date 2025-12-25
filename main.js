@@ -47,7 +47,7 @@ function get_tool_help(){
             }
             selected_string = selected_lines.join("\n");
         }
-        document.getElementById("tool_desc").innerHTML = selected_string;
+        document.getElementById("tool_desc").textContent = selected_string;
     });
 
     let random_tool_names = [];
@@ -63,13 +63,13 @@ function get_tool_help(){
         let tool = random_tool_names.pop();
         if (tool === tool_name) {
             buttons.push(`
-            <div class="col-3">
-                <button class="btn btn-warning" onclick="win()">${tool}</button>
+            <div class="col-6 col-md-3">
+                <button class="choice-btn" onclick="win()">${tool}</button>
             </div>`);
         } else {
             buttons.push(`
-            <div class="col-3">
-                <button class="btn btn-warning" onclick="lose()">${tool}</button>
+            <div class="col-6 col-md-3">
+                <button class="choice-btn" onclick="lose()">${tool}</button>
             </div>`);
         }
     }
@@ -77,13 +77,17 @@ function get_tool_help(){
     document.getElementById("proposition_buttons").innerHTML = buttons.join("");
 }
 function win(){
-    document.getElementById("result").innerHTML = "You Win!";
-    document.getElementById("result").style.color = "green";
+    const result = document.getElementById("result");
+    result.textContent = "You Win!";
+    result.classList.remove("lose");
+    result.classList.add("win");
 }
 
 function lose(){
-    document.getElementById("result").innerHTML = "Nope!";
-    document.getElementById("result").style.color = "red";
+    const result = document.getElementById("result");
+    result.textContent = "Nope!";
+    result.classList.remove("win");
+    result.classList.add("lose");
 }
 
 get_tool_help();
